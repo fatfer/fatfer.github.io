@@ -6,6 +6,7 @@
 
 
 // Our variables
+$post-font-family:    'Merriweather', serif;
 $base-font-family:    "Roboto Condensed","Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:      18px;
 $base-font-weight:    400;
@@ -25,7 +26,7 @@ $grey-color-light:    lighten($grey-color, 40%);
 $grey-color-dark:     darken($grey-color, 25%);
 
 $heading-font-family: $code-font-family;
-$heading-color:       #4E1862;
+$heading-color:       rgb(148, 41, 188);
 
 // Width of the content area
 $content-width:       800px;

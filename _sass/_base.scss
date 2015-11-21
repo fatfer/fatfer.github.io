@@ -26,6 +26,10 @@ body {
 }
 
 
+.post-content {
+    font-family: "Merriweather",serif;
+    color: #333;
+}
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -133,12 +137,11 @@ pre,
 code {
     font-family: $code-font-family;
     font-size: 15px;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: #eef;
+    border-radius: 6px;
 }
 
 code {
+    border: 2px solid $grey-color-light;
     padding: 1px 5px;
 }
 
