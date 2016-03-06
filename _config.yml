@@ -7,10 +7,11 @@
 
 # Site settings
 title: Fernando Guerra
-email: your-email@domain.com
+#email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://fguerra.me" # the base hostname & protocol for your site
+#url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
 twitter_username: fat_fer
 github_username:  fatfer
 
