@@ -26,7 +26,7 @@ Esta clase tendrá un método que servirá para concatenar dos textos, por el mo
 {% highlight java %}
 public class Concatenator {
 
-    public String concatenate(String firstText , String secondText) {
+    public String concatenate(String firstText, String secondText) {
         return "";
     }
 }
@@ -68,7 +68,7 @@ Para ejecutar nuestro test hacemos click derecho sobre `CalculatorTest` y selecc
   {% highlight java %}
   public class Concatenator {
 
-      public String concatenate(String firstText , String secondText) {
+      public String concatenate(String firstText, String secondText) {
           return firstText + secondText;
       }
   }
