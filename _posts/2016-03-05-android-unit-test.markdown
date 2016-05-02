@@ -27,7 +27,7 @@ Esta clase tendrá un método que servirá para concatenar dos textos, por el mo
 public class Concatenator {
 
     public String concatenate(String firstText, String secondText) {
-        return "";
+        return null;
     }
 }
 {% endhighlight %}
