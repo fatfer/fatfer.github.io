@@ -1,4 +1,3 @@
-## Privacy Policy
 
 wokendo built the Próximo Tranvía app as an Ad Supported app. This SERVICE is provided by wokendo at no cost and is intended for use as is.
 
