@@ -7,6 +7,7 @@ comments: true
 ---
 
 Mouse Without Borders es un proyecto llevado a cabo por un desarrollador de Microsoft, esta herramienta permite compartir ratón, teclado y portapapeles entre varios ordenadores dentro de una red local.
+
 La aplicación se puede descargar desde la web de Microsoft:
 
 [Mouse Without Borders](https://www.microsoft.com/en-us/download/details.aspx?id=35460)
