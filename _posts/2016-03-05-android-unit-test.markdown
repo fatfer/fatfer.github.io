@@ -8,7 +8,7 @@ comments: true
 Crearemos un nuevo proyecto en Android Studio, **_File > New > New Project..._** con el nombre **TestingExample**  y dejando las demás opciones por defecto.
 
 Antes de empezar a escribir test unitarios debemos comprobar que tenemos creado el directorio `src/test/java` viendo el proyecto con la perspectiva Project, aquí se incluirán los test unitarios. Bajo la ruta `src/androidTest/java` se crearán los test de instrumentación, que requieren ser ejecutados en un terminal físico o en un emulador.
-![]({{ site.url }}/images/testproject.png){: .center-image }
+![](/assets/img/testproject.png){: .center-image }
 Comprobamos también que `build.gradle Module:app` tiene las siguientes dependencias, si no es así, debemos incluirlas y sincronizar Gradle:
 
 {% highlight groovy %}
@@ -20,7 +20,7 @@ Comprobamos también que `build.gradle Module:app` tiene las siguientes dependen
 {% endhighlight %}
 
 Una vez configurado el entorno, ya podemos empezar a escribir nuestros test, pero antes necesitamos tener alguna clase que testear, por lo que vamos a crear la clase `Concatenator` en `src/java`
-![]({{ site.url }}/images/concatenator.png){: .center-image }
+![](/assets/img/concatenator.png){: .center-image }
 Esta clase tendrá un método que servirá para concatenar dos textos, por el momento este método devolverá null.
 
 {% highlight java %}
@@ -34,11 +34,11 @@ public class Concatenator {
 
 Ahora crearemos nuestra clase de test haciendo click sobre la clase que acabamos de escribir y pulsando `ctrl+shift+t` o haciendo click derecho sobre el editor de texto y seleccionando **_Go To > Test > Create New Test..._**, esto nos permitirá crear una nueva clase de test para `Concatenator`. En esta clase de test escribiremos un test que pruebe la funcionalidad del método `concatenate()` .
 
-![]({{ site.url }}/images/concatenatorTest.png){: .center-image }
+![](/assets/img/concatenatorTest.png){: .center-image }
 
 Elegimos la ruta de destino de nuestra nueva clase de test: `app/src/test/java/com/example/testingexample/`
 
-![]({{ site.url }}/images/concatenatorTestDestination.png){: .center-image }
+![](/assets/img/concatenatorTestDestination.png){: .center-image }
 
 Nuestra clase de test `ConcatenatorTest` quedará de la siguiente forma:
 
@@ -75,4 +75,4 @@ Para ejecutar nuestro test hacemos click derecho sobre `CalculatorTest` y selecc
   {% endhighlight %}
 
   Ahora que ya tenemos implementado nuestro método, volvemos a ejecutar nuestro test y comprobamos que que el resultado es correcto.
-![]({{ site.url }}/images/testResult.png){: .center-image }
+![](/assets/img/testResult.png){: .center-image }
