@@ -28,10 +28,10 @@ description: >-                        # used by seo meta and the atom feed
 url: 'https://fatfer.github.io'
 
 github:
-  username: fer             # change to your github username
+  username: fatfer             # change to your github username
 
-twitter:
-  username: fer            # change to your twitter username
+#twitter:
+#  username: fer            # change to your twitter username
 
 social:
   # Change to your full name.
